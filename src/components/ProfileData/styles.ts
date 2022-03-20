@@ -17,12 +17,12 @@ export const Flex = styled.div`
     > h1 {
       font-size: 26px;
       line-height: 1.25;
-      color: #24292e;
+      color: var(--gray-dark);
       font-weight: 600;
     }
     > h2 {
       font-size: 20px;
-      color: #666;
+      color: var(--username);
       font-weight: 300;
     }
   }
@@ -52,7 +52,7 @@ export const Row = styled.ul`
 
     > span {
       font-size: 14px;
-      color: #586069;
+      color: var(--gray);
     }
 
     > * {
@@ -100,7 +100,7 @@ export const Column = styled.ul`
 const iconCSS = css`
   width: 16px;
   height: 16px;
-  fill: #6a737d;
+  fill: var(--icon);
   flex-shrink: 0;
 `;
 

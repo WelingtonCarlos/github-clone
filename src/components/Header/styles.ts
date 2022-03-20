@@ -5,15 +5,20 @@ import { FaGithub } from "react-icons/fa";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background: #24292e;
+  background: var(--header);
   padding: 11px 16px;
 `;
 
 export const GithubLogo = styled(FaGithub)`
-  fill: #fff;
+  fill: var(--logo);
   width: 32px;
   height: 32px;
   flex-shrink: 0;
+
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 export const SearchForm = styled.form`
@@ -21,11 +26,12 @@ export const SearchForm = styled.form`
   width: 100%;
 
   input {
-    background: rgba(255, 255, 255, 0.13);
+    background: var(--search);
     outline: 0;
     border-radius: 6px;
     padding: 7px 12px;
     width: 100%;
+    color: #fff;
 
     &:focus {
       width: 318px;

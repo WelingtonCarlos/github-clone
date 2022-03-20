@@ -82,7 +82,7 @@ export const RepoIcon = styled(RiBookMarkLine)`
 `;
 
 export const Tab = styled.div`
-  background: #fff;
+  background: var(--primary);
 
   .content {
     display: flex;
@@ -90,7 +90,7 @@ export const Tab = styled.div`
     width: min-content;
 
     padding: 14px 16px;
-    border-bottom: 2px solid #f9826c;
+    border-bottom: 2px solid var(--orange);
 
     .label {
       font-size: 14px;
@@ -99,7 +99,7 @@ export const Tab = styled.div`
     }
     .number {
       font-size: 12px;
-      background: rgba(209, 213, 218, 0.5);
+      background: var(--ticker);
       padding: 2px 6px;
       border-radius: 24px;
     }
@@ -107,7 +107,7 @@ export const Tab = styled.div`
   .line {
     display: flex;
     width: 200vw;
-    border-bottom: 1px solid #e1e4e8;
+    border-bottom: 1px solid var(--border);
     margin-left: -50vw;
   }
 

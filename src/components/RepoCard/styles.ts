@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 16px;
-  border: 1px solid #e1e4e8;
+  border: 1px solid var(--border);
   border-radius: 6px;
 `;
 
@@ -20,7 +20,7 @@ export const Topside = styled.div`
       margin-left: 8px;
       font-size: 14px;
       font-weight: 600;
-      color: #0366d6;
+      color: var(--link);
 
       text-decoration: none;
       &:focus,
@@ -33,7 +33,7 @@ export const Topside = styled.div`
   > p {
     margin: 8px 0 16px;
     font-size: 12px;
-    color: #586069;
+    color: var(--gray);
     letter-spacing: 0.1px;
   }
 `;
@@ -51,7 +51,7 @@ export const Botside = styled.div`
       > span {
         margin-left: 5px;
         font-size: 12px;
-        color: #586069;
+        color: var(--gray);
       }
     }
   }
@@ -63,13 +63,13 @@ export const Botside = styled.div`
     flex-shrink: 0;
 
     &.other {
-      background: #8257e5;
+      background: var(--other-language);
     }
     &.javascript {
-      background: #f1e05a;
+      background: var(--javascript);
     }
     &.typescript {
-      background: #2b7489;
+      background: var(--typescript);
     }
   }
 `;
@@ -77,7 +77,7 @@ export const Botside = styled.div`
 const iconCSS = css`
   width: 16px;
   height: 16px;
-  fill: #6a737d;
+  fill: var(--icon);
   flex-shrink: 0;
 `;
 
