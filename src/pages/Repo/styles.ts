@@ -46,7 +46,7 @@ export const Breadcrumb = styled.div`
 
 export const LinkButton = styled.a`
   margin-top: 24px;
-  background: #24292e;
+  background: var(--gray-dark);
   padding: 12px 18px;
   border-radius: 24px;
   width: max-content;
